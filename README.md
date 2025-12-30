@@ -1,2 +1,2 @@
 # vidpress
-Video compressor that can saves you space.
+Video compressor that saves you space.
