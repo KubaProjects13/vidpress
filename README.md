@@ -5,7 +5,7 @@ Video compressor that saves you space.
 
 <hr>
 
-Supports:
+Features:
 - hardware acceleration
 - landscape and portrait
 - bitrate changing
