@@ -1,0 +1,220 @@
+body {
+    font-family: sans-serif;
+    background-color: honeydew;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: honeydew;
+}
+
+/* wrapper přes celý viewport */
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+/* TADY je ten trik */
+.content {
+    width: 100%;        /* mobil */
+    max-width: 400px;   /* desktop */
+    padding: 12px;
+}
+
+/* zbytek může zůstat jak máš */
+h1, p, h3, ul, img, .button-19 {
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #101010;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 1px;
+}
+
+img {
+    background-color: #202020;
+    border: solid;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    border-color: #353535;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    outline: none;
+    overflow: visible;
+    padding: 3px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+p {
+    background-color: #565656;
+    border: solid;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    border-color: #353535;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+h3 {
+    background-color: #393939;
+    border: solid;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    border-color: #090909;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+ul {
+    background-color: #565656;
+    border: solid;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    border-color: #353535;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+/* CSS */
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
